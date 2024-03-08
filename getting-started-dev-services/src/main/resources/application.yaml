@@ -1,0 +1,9 @@
+# configure the datasource for production profile
+"%prod":
+  quarkus:
+    datasource:
+      db-kind: postgresql
+      username: dbuser
+      password: dbpass
+      jdbc:
+        url: jdbc:postgresql://localhost:5432/testdb
